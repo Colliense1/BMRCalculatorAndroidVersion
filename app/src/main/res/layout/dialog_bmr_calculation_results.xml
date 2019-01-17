@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32.0dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text=" Basal Metabolic Rate (BMR) = "
+            android:textColor="#000"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/textViewBmrIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#2fb12f"
+            android:textSize="16.0sp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewBmrStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#2fb12f"
+        android:textSize="18.0sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:background="#c94d4d" />
+
+    <TextView
+        android:id="@+id/textViewOk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:maxLines="1"
+        android:paddingRight="24.0dip"
+        android:paddingBottom="16.0dip"
+        android:text="OK"
+        android:textColor="#2fa34e"
+        android:textSize="14.0sp" />
+</LinearLayout>
